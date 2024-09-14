@@ -14,8 +14,9 @@ public class Main {
 
         Main1 test1=new Main1("Naren");
         Main1 test2=new Main1("test2");
-        System.out.println(test1.name);
-        System.out.println(test2.name);
+        System.out.println(Main1.name);
+        System.out.println(Main1.name);
+        //Static variables we access through class name
         //Both the time it prints test2
     }
 }
